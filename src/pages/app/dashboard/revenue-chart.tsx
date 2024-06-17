@@ -37,6 +37,7 @@ export function RevenueChart() {
           <CardDescription>Receita diária no período</CardDescription>
         </div>
       </CardHeader>
+      
       <CardContent>
         <ResponsiveContainer width="100%" height={240}>
           <LineChart data={data} style={{ fontSize: 12 }}>

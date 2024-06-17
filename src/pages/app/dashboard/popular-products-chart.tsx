@@ -31,6 +31,7 @@ export function PopularProductsChart() {
           <BarChart className="h-4 w-4 text-muted-foreground" />
         </div>
       </CardHeader>
+      
       <CardContent>
         <ResponsiveContainer width="100%" height={240}>
           <PieChart style={{ fontSize: 12 }}>
